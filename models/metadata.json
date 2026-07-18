@@ -1,0 +1,11 @@
+{
+    "latest_model": "model_v34.pkl",
+    "accuracy": 99.92,
+    "precision": 90.91,
+    "recall": 58.82,
+    "f1_score": 71.43,
+    "trained_at": "2026-07-16 16:11:00",
+    "dataset_size": 50000,
+    "algorithm": "RandomForest",
+    "n_estimators": 50
+}

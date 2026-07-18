@@ -1,0 +1,254 @@
+[
+    {
+        "model": "model_v7.pkl",
+        "accuracy": 99.92,
+        "precision": 90.91,
+        "recall": 58.82,
+        "f1_score": 71.43,
+        "trained_at": "2026-07-08 11:39:20",
+        "status": "Archived"
+    },
+    {
+        "model": "model_v8.pkl",
+        "accuracy": 99.92,
+        "precision": 90.91,
+        "recall": 58.82,
+        "f1_score": 71.43,
+        "trained_at": "2026-07-11 11:11:50",
+        "status": "Archived"
+    },
+    {
+        "model": "model_v9.pkl",
+        "accuracy": 99.92,
+        "precision": 90.91,
+        "recall": 58.82,
+        "f1_score": 71.43,
+        "trained_at": "2026-07-12 20:57:25",
+        "status": "Archived"
+    },
+    {
+        "model": "model_v10.pkl",
+        "accuracy": 99.92,
+        "precision": 90.91,
+        "recall": 58.82,
+        "f1_score": 71.43,
+        "trained_at": "2026-07-12 20:58:21",
+        "status": "Archived"
+    },
+    {
+        "model": "model_v11.pkl",
+        "accuracy": 99.92,
+        "precision": 90.91,
+        "recall": 58.82,
+        "f1_score": 71.43,
+        "trained_at": "2026-07-15 09:57:39",
+        "status": "Archived"
+    },
+    {
+        "model": "model_v12.pkl",
+        "accuracy": 99.92,
+        "precision": 90.91,
+        "recall": 58.82,
+        "f1_score": 71.43,
+        "trained_at": "2026-07-15 12:41:55",
+        "status": "Archived"
+    },
+    {
+        "model": "model_v13.pkl",
+        "accuracy": 99.92,
+        "precision": 90.91,
+        "recall": 58.82,
+        "f1_score": 71.43,
+        "trained_at": "2026-07-15 12:43:04",
+        "status": "Archived"
+    },
+    {
+        "model": "model_v14.pkl",
+        "accuracy": 99.92,
+        "precision": 90.91,
+        "recall": 58.82,
+        "f1_score": 71.43,
+        "trained_at": "2026-07-15 19:46:11",
+        "status": "Archived"
+    },
+    {
+        "model": "model_v16.pkl",
+        "accuracy": 99.92,
+        "precision": 90.91,
+        "recall": 58.82,
+        "f1_score": 71.43,
+        "trained_at": "2026-07-15 19:48:57",
+        "status": "Archived"
+    },
+    {
+        "model": "model_v15.pkl",
+        "accuracy": 99.92,
+        "precision": 90.91,
+        "recall": 58.82,
+        "f1_score": 71.43,
+        "trained_at": "2026-07-15 19:48:57",
+        "status": "Archived"
+    },
+    {
+        "model": "model_v17.pkl",
+        "accuracy": 99.92,
+        "precision": 90.91,
+        "recall": 58.82,
+        "f1_score": 71.43,
+        "trained_at": "2026-07-15 19:49:55",
+        "status": "Archived"
+    },
+    {
+        "model": "model_v18.pkl",
+        "accuracy": 99.92,
+        "precision": 90.91,
+        "recall": 58.82,
+        "f1_score": 71.43,
+        "trained_at": "2026-07-15 20:01:52",
+        "status": "Archived"
+    },
+    {
+        "model": "model_v19.pkl",
+        "accuracy": 99.92,
+        "precision": 90.91,
+        "recall": 58.82,
+        "f1_score": 71.43,
+        "trained_at": "2026-07-15 20:02:58",
+        "status": "Archived"
+    },
+    {
+        "model": "model_v20.pkl",
+        "accuracy": 99.92,
+        "precision": 90.91,
+        "recall": 58.82,
+        "f1_score": 71.43,
+        "trained_at": "2026-07-15 20:03:48",
+        "status": "Archived"
+    },
+    {
+        "model": "model_v21.pkl",
+        "accuracy": 99.92,
+        "precision": 90.91,
+        "recall": 58.82,
+        "f1_score": 71.43,
+        "trained_at": "2026-07-15 20:17:29",
+        "status": "Archived"
+    },
+    {
+        "model": "model_v22.pkl",
+        "accuracy": 99.92,
+        "precision": 90.91,
+        "recall": 58.82,
+        "f1_score": 71.43,
+        "trained_at": "2026-07-15 20:18:27",
+        "status": "Archived"
+    },
+    {
+        "model": "model_v23.pkl",
+        "accuracy": 99.92,
+        "precision": 90.91,
+        "recall": 58.82,
+        "f1_score": 71.43,
+        "trained_at": "2026-07-16 11:32:43",
+        "status": "Archived"
+    },
+    {
+        "model": "model_v24.pkl",
+        "accuracy": 99.92,
+        "precision": 90.91,
+        "recall": 58.82,
+        "f1_score": 71.43,
+        "trained_at": "2026-07-16 12:00:26",
+        "status": "Archived"
+    },
+    {
+        "model": "model_v25.pkl",
+        "accuracy": 99.92,
+        "precision": 90.91,
+        "recall": 58.82,
+        "f1_score": 71.43,
+        "trained_at": "2026-07-16 12:00:50",
+        "status": "Archived"
+    },
+    {
+        "model": "model_v26.pkl",
+        "accuracy": 99.92,
+        "precision": 90.91,
+        "recall": 58.82,
+        "f1_score": 71.43,
+        "trained_at": "2026-07-16 12:03:47",
+        "status": "Archived"
+    },
+    {
+        "model": "model_v27.pkl",
+        "accuracy": 99.92,
+        "precision": 90.91,
+        "recall": 58.82,
+        "f1_score": 71.43,
+        "trained_at": "2026-07-16 12:07:02",
+        "status": "Archived"
+    },
+    {
+        "model": "model_v28.pkl",
+        "accuracy": 99.92,
+        "precision": 90.91,
+        "recall": 58.82,
+        "f1_score": 71.43,
+        "trained_at": "2026-07-16 12:19:31",
+        "status": "Archived"
+    },
+    {
+        "model": "model_v29.pkl",
+        "accuracy": 99.92,
+        "precision": 90.91,
+        "recall": 58.82,
+        "f1_score": 71.43,
+        "trained_at": "2026-07-16 12:28:39",
+        "status": "Archived"
+    },
+    {
+        "model": "model_v30.pkl",
+        "accuracy": 99.92,
+        "precision": 90.91,
+        "recall": 58.82,
+        "f1_score": 71.43,
+        "trained_at": "2026-07-16 12:29:25",
+        "status": "Archived"
+    },
+    {
+        "model": "model_v31.pkl",
+        "accuracy": 99.92,
+        "precision": 90.91,
+        "recall": 58.82,
+        "f1_score": 71.43,
+        "trained_at": "2026-07-16 12:30:30",
+        "status": "Archived"
+    },
+    {
+        "model": "model_v32.pkl",
+        "accuracy": 99.92,
+        "precision": 90.91,
+        "recall": 58.82,
+        "f1_score": 71.43,
+        "trained_at": "2026-07-16 12:31:47",
+        "status": "Archived"
+    },
+    {
+        "model": "model_v33.pkl",
+        "accuracy": 99.92,
+        "precision": 90.91,
+        "recall": 58.82,
+        "f1_score": 71.43,
+        "trained_at": "2026-07-16 12:32:30",
+        "status": "Archived"
+    },
+    {
+        "model": "model_v34.pkl",
+        "accuracy": 99.92,
+        "precision": 90.91,
+        "recall": 58.82,
+        "f1_score": 71.43,
+        "trained_at": "2026-07-16 16:11:00",
+        "status": "Production"
+    }
+]

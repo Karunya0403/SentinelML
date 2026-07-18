@@ -1,0 +1,65 @@
+services:
+
+  postgres:
+    image: postgres:16
+    container_name: sentinelml-postgres
+    restart: always
+
+    environment:
+      POSTGRES_DB: sentinelml
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+
+    ports:
+      - "5432:5432"
+
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+
+
+  fastapi:
+    build:
+      context: .
+      dockerfile: Dockerfile.api
+
+    container_name: sentinelml-api
+
+    depends_on:
+      - postgres
+
+    ports:
+      - "8000:8000"
+
+    environment:
+      DB_HOST: postgres
+      DB_PORT: 5432
+      DB_NAME: sentinelml
+      DB_USER: postgres
+      DB_PASSWORD: postgres
+
+    volumes:
+      - .:/app
+
+
+  dashboard:
+    build:
+      context: .
+      dockerfile: Dockerfile.dashboard
+
+    container_name: sentinelml-dashboard
+
+    depends_on:
+      - fastapi
+
+    ports:
+      - "8501:8501"
+
+    environment:
+      API_URL: http://fastapi:8000
+
+    volumes:
+      - .:/app
+
+
+volumes:
+  postgres_data:
