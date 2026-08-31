@@ -104,3 +104,41 @@ F1 Score:  71.43% >= 70%  PASS
 
 Decision: APPROVED
 
+\## Failure-Slice Analysis
+
+
+
+Passing aggregate metrics is not enough to understand model quality.
+
+
+
+The demo also performs a simple failure-slice analysis to identify evaluation slices with low recall.
+
+
+
+For the current SentinelML baseline:
+
+
+
+\- Overall recall: 58.82%
+
+\- Fraud detection recall: 58.82%
+
+
+
+Both slices are flagged for investigation because recall is below the 60% diagnostic threshold.
+
+
+
+This separates two questions:
+
+
+
+1\. \*\*Does the model meet the minimum deployment gate?\*\*
+
+2\. \*\*Where does the model still fail?\*\*
+
+
+
+A model can pass the deployment gate while still producing diagnostic signals that indicate where additional data, evaluation, or model improvement may be needed.
+
