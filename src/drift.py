@@ -59,8 +59,10 @@ def check_data_drift():
             recommendation
         )
 
-    return {
-        "drift_detected": drift_detected,
-        "drifted_features": drift_features,
-        "total_features": len(reference.columns)
-    }
+   return {
+    "drift_detected": drift_detected,
+    "drifted_features": drift_features,
+    "total_features": len(reference.columns),
+    "severity": severity if drift_detected else "None",
+    "recommendation": recommendation if drift_detected else "No Action Needed"
+}
