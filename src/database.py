@@ -1,4 +1,5 @@
 import os
+import json
 import psycopg2
 from dotenv import load_dotenv
 from pathlib import Path
@@ -21,6 +22,18 @@ def get_connection():
 
     return conn
 
+def get_current_model_version():
+
+    metadata_path = os.path.join(
+        Path(__file__).resolve().parent.parent,
+        "models",
+        "metadata.json"
+    )
+
+    with open(metadata_path, "r") as file:
+        metadata = json.load(file)
+
+    return metadata["latest_model"]
 
 def save_prediction(prediction, actual, model_version):
 
@@ -74,13 +87,13 @@ def get_stats():
     cur.close()
     conn.close()
 
-    return {
-        "total_predictions": total_predictions,
-        "fraud_predictions": fraud_predictions,
-        "normal_predictions": normal_predictions,
-        "fraud_rate": fraud_rate,
-        "model_version": "v1"
-    }
+   return {
+    "total_predictions": total_predictions,
+    "fraud_predictions": fraud_predictions,
+    "normal_predictions": normal_predictions,
+    "fraud_rate": fraud_rate,
+    "model_version": get_current_model_version()
+}
 
 
 def get_recent_predictions(limit=10):
