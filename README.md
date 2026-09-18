@@ -101,7 +101,7 @@ SentinelML treats monitoring and retraining as part of the same engineering life
                               │ Deployment       │
                               └──────────────────┘
 
-ore Engineering Idea
+core Engineering Idea
 
 SentinelML does not treat drift as equivalent to model failure.
 
