@@ -213,28 +213,45 @@ def auto_retrain():
 
     print("STEP 2")
 
-    if drift["drift_detected"]:
-
+    if not drift["drift_detected"]:
         print("STEP 3")
 
-        result = subprocess.run(
-            [sys.executable, "src/retrain.py"],
-            capture_output=True,
-            text=True
-        )
-
-        print("STEP 4")
-
         return {
-            "status": "Retraining completed",
-            "output": result.stdout,
+            "status": "No retraining needed",
+            "reason": "No data drift detected",
             "drift": drift
         }
 
-    print("STEP 5")
+    print("STEP 4")
+
+    recommendation = drift.get(
+        "recommendation",
+        "No Action Needed"
+    )
+
+    if recommendation != "Retrain Model":
+
+        print("STEP 5")
+
+        return {
+            "status": "Retraining skipped",
+            "reason": recommendation,
+            "drift": drift
+        }
+
+    print("STEP 6")
+
+    result = subprocess.run(
+        [sys.executable, "src/retrain.py"],
+        capture_output=True,
+        text=True
+    )
+
+    print("STEP 7")
 
     return {
-        "status": "No retraining needed",
+        "status": "Retraining completed",
+        "output": result.stdout,
         "drift": drift
     }
 # -----------------------------------
